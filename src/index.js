@@ -6,3 +6,19 @@
 //E.g.
 //Created by Angela Yu.
 //Copyright 2019.
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+const name = "Natsu Dragneel";
+const day = new Date();
+var year = day.getFullYear();
+
+ReactDOM.render(
+  <div>
+    <p>Created by {name}</p>
+    <p>Copy Right {year}</p>
+  </div>,
+
+  document.getElementById("root")
+);
